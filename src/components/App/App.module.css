@@ -28,7 +28,10 @@
 }
 
 .active {
-    background-color: #0a66c2;
-    color: white;
+    background-color: #0a66c2 !important;
+}
+
+.active a {
+    color: #ffffff !important;
     font-weight: bold;
 }
