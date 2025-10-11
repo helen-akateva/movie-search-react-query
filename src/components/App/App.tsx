@@ -23,7 +23,7 @@ export default function App() {
     try {
       const data = await fetchMovies(query);
 
-      // Фільтруємо: мають бути І poster_path І backdrop_path
+      
       const validMovies = data.results.filter(
         (movie) => movie.poster_path && movie.backdrop_path
       );
