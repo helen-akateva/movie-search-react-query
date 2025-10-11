@@ -29,9 +29,6 @@
 
 .active {
   background-color: #0a66c2;
-}
-
-.active a {
-  color: #ffffff;
+  color: white;
   font-weight: bold;
 }
